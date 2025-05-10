@@ -1,6 +1,6 @@
 # Azure MCP Agents Functions
 
-This project implements Azure Functions that act as "MCP (Microsoft Copilot Platform) Tools". These tools expose various Azure DevOps functionalities, enabling interaction with Azure Boards and Azure Pipelines through a conversational AI interface.
+This project implements Azure Functions that act as "MCP (Model Context Protocol) Tools". These tools expose various Azure DevOps functionalities, enabling interaction with Azure Boards and Azure Pipelines through a conversational AI interface.
 
 ## Project Structure
 
@@ -46,7 +46,7 @@ The core logic resides within the `AzureMcpAgents.Functions` directory.
 
 ### Prerequisites
 
-- .NET SDK (version compatible with `FUNCTIONS_WORKER_RUNTIME` specified in `local.settings.json`, likely .NET 6 or later for "dotnet-isolated").
+- .NET SDK (version compatible with `FUNCTIONS_WORKER_RUNTIME` specified in `local.settings.json`, .NET 8 or later for "dotnet-isolated").
 - Azure Functions Core Tools.
 - An Azure DevOps organization and a project within it.
 - An Azure Active Directory application registration with permissions to access Azure DevOps.
